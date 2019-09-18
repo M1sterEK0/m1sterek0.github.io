@@ -77,7 +77,7 @@ a:hover {
 .intro span.highlight-red:hover {
 	background-color: green;
 	color: white;
-	transition: 1.0s;
+	transition: 0.3s;
 }
 
 @media (max-width: 360px) {

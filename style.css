@@ -80,6 +80,19 @@ a:hover {
 	transition: 0.3s;
 }
 
+.CW {
+
+	align: center;
+	
+}
+
+
+
+
+
+
+
+
 @media (max-width: 360px) {
 	.intro {
 		margin: 50px 0 50px 0;

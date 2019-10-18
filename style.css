@@ -1,32 +1,37 @@
 body {
+	
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #333;
+
 }
 
 span{
+	
 	font-size: 14px;
 	color: #000;
 	transition: 0.3s;
+
 }
 
-img{
-	width: 70px;
-	border: 2px solid;
-	border-radius: 35px;
-	margin: 10px 15px 0 0;
-}
+img {
+	
+	border: 1px solid;
+	border-radius: 90px;  
+	object-fit: cover;
+	width:100px;
+	height:100px;
 
-table {
-	margin: 0;
-	float: right;
 }
 
 table tr td:first-child {
-	padding-right: 5px;
+	
+	padding: 1px;
+
 }
 
 a {
+	
 	text-decoration: none;
 	color: #000;
 	font-weight: bold;
@@ -34,51 +39,75 @@ a {
 }
 
 a:hover {
+	
 	color: #1A6DBB;
 	transition: 0.3s;
+
 }
 
 ::-moz-selection {
+	
 	color: white; 
 	background: #1A6DBB;
+
 }
 
 ::selection {
+	
 	color: white; 
 	background: #1A6DBB;
+
+}
+
+.desc {
+	
+	margin-left: auto;
+	
 }
 
 .content {
+	
 	max-width: 600px;
-	margin: 0 auto;
+	margin:  auto;
+
 }
 
 .intro {
+	
 	margin: 150px 0 90px 0;
 	text-align: center;
+
 }
 
 .intro span {
+	
 	margin-bottom: 10px;
 	font-size: 22px;
 	line-height: 40px;
+
 }
 
 .intro span.highlight {
+	
 	background-color: #333;
 	color: white;
+
 }
 
 .intro span.highlight-red {
+	
 	background-color: darkred;
 	color: white;
 	transition: 0.3s;
+
 }
 
 .intro span.highlight-red:hover {
+	
 	background-color: green;
 	color: white;
 	transition: 0.3s;
+
 }
 
 .CW {
@@ -96,19 +125,28 @@ a:hover {
 
 @media (max-width: 360px) {
 	.intro {
+		
 		margin: 50px 0 50px 0;
+	
 	}
 	
 	.intro span {
+		
 		font-size: 18px;
 		line-height: 28px;
+	
 	}
 	
 	img{
+		
 		display: none;
+	
 	}
 	
 	table {
+		
 		float: none;
+	
 	}
+
 }

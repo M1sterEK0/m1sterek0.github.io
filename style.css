@@ -14,16 +14,6 @@ span{
 
 }
 
-img {
-	
-	border: 1px solid;
-	border-radius: 90px;  
-	object-fit: cover;
-	width:100px;
-	height:100px;
-
-}
-
 table tr td:first-child {
 	
 	padding: 1px;
@@ -59,6 +49,20 @@ a:hover {
 
 }
 
+.foto {
+	
+	border: 1px solid;
+	border-radius: 90px;  
+	object-fit: cover;
+	width:100px;
+	height:100px;
+
+}
+
+.codewars{
+	margin-top: 20px;
+}
+
 .desc {
 	
 	margin-left: auto;
@@ -67,7 +71,7 @@ a:hover {
 
 .content {
 	
-	max-width: 600px;
+	max-width: 900px;
 	margin:  auto;
 
 }

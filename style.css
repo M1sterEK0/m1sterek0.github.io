@@ -76,6 +76,15 @@ a:hover {
 
 }
 
+.content_video {
+	
+	margin-left: auto;
+    	margin-right: auto;
+    	display: block
+
+}
+
+
 .intro {
 	
 	margin: 150px 0 90px 0;
